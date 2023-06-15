@@ -165,8 +165,9 @@ address {
   color: var(--navy-blue-color);
 }
 
-/* .swifttech-text {
-} */
+.swifttech-text {
+  letter-spacing: 0.02em;
+}
 
 /**
   |============================
@@ -263,6 +264,7 @@ address {
   color: var(--cloud-color);
 }
 .footer-text {
+  letter-spacing: 0.02em;
   color: var(--cloud-color);
 }
 
@@ -317,5 +319,6 @@ address {
   color: var(--navy-blue-color);
 }
 
-/* .gallery-text {
-} */
+.gallery-text {
+  letter-spacing: 0.02em;
+}
