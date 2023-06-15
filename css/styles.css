@@ -25,7 +25,6 @@ body {
   color: var(--slate-color);
   background-color: var(--white-color);
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .link {
@@ -44,6 +43,7 @@ address {
 .button {
   font-family: inherit;
   cursor: pointer;
+  line-height: 1.5;
 }
 
 /**
@@ -52,11 +52,11 @@ address {
   |============================
 */
 
-.header {
-}
+/* .header {
+} */
 
-.header-nav {
-}
+/* .header-nav {
+} */
 
 .header-logo-link {
   font-family: 'Raleway', sans-serif;
@@ -72,14 +72,15 @@ address {
   color: var(--navy-blue-color);
 }
 
-.header-nav-list {
-}
+/* .header-nav-list {
+} */
 
-.header-nav-item {
-}
+/* .header-nav-item {
+} */
 
 .header-nav-link {
   font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
 
@@ -97,8 +98,9 @@ address {
 /* .header-address-item {
 } */
 
-/* .header-address-link {
-} */
+.header-address-link {
+  letter-spacing: 0.02em;
+}
 
 .header-address-link:hover,
 .header-address-link:focus {
@@ -120,15 +122,21 @@ address {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white-color);
 }
 
 .hero-button {
   background-color: var(--iris-color);
   font-weight: 500;
-  align-items: center;
+  /* line-height: 1.5; */
   letter-spacing: 0.04em;
   color: var(--white-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean-color);
 }
 
 /**
@@ -153,6 +161,7 @@ address {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
 
@@ -174,6 +183,7 @@ address {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
 
@@ -201,6 +211,7 @@ address {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue-color);
 }
@@ -220,10 +231,12 @@ address {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
 
 .team-text {
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -300,6 +313,7 @@ address {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
 
